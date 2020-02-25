@@ -7,6 +7,36 @@ script = ExtResource( 1 )
 
 [node name="CanvasLayer" type="CanvasLayer" parent="."]
 
+[node name="Label2" type="Label" parent="CanvasLayer"]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -190.266
+margin_top = 5.97078
+margin_right = 94.7338
+margin_bottom = 25.9708
+rect_scale = Vector2( 1.5, 1.5 )
+text = "Switch generated levels with LEFT and RIGHT"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label3" type="Label" parent="CanvasLayer"]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -197.266
+margin_top = 31.1808
+margin_right = 101.734
+margin_bottom = 51.1808
+rect_scale = Vector2( 1.5, 1.5 )
+text = "Zoom out with UP and reset Zoom with DOWN"
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
 [node name="ColorRect" type="ColorRect" parent="CanvasLayer"]
 anchor_left = 0.5
 anchor_top = 1.0
@@ -41,6 +71,20 @@ margin_top = -39.0
 margin_right = 615.0
 margin_bottom = -19.0
 text = "Map Generation Finished"
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Label4" type="Label" parent="CanvasLayer/ColorRect"]
+anchor_left = 0.5
+anchor_right = 0.5
+margin_left = -149.5
+margin_top = -15.9221
+margin_right = 149.5
+margin_bottom = 4.07788
+text = "Press SPACE to generate a new level"
+align = 1
 valign = 1
 __meta__ = {
 "_edit_use_anchors_": false
